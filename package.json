@@ -1,0 +1,28 @@
+{
+  "name": "tacc",
+  "version": "0.1.0",
+  "description": "A JS Tool to help with websites.",
+  "homepage": "http://github.com/12px/tacc",
+  "scripts": {
+    "build": "taskr build",
+    "develop": "taskr develop"
+  },
+  "files": ["dist/"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/12px/tacc.git"
+  },
+  "author": "12px, dalton@12px.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/12px/tacc/issues"
+  },
+  "devDependencies": {
+    "@taskr/babel": "^1.0.6",
+    "@taskr/esnext": "^1.0.0",
+    "@taskr/watch": "^1.0.6",
+    "babel-core": "^6.25.0",
+    "fly-rename": "^0.1.1",
+    "taskr": "^1.0.6"
+  }
+}
